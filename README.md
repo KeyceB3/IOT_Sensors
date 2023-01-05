@@ -4,17 +4,30 @@
 This is a Python API that communicates with an InfluxDB database and a Grafana dashboard. The API receives data from sensors in the form of a hexadecimal string and processes it to extract the relevant information. The processed data is then stored in the InfluxDB database and displayed on the Grafana dashboard.
 
 <h2>Prerequisites:</h2>
-- Python 3 <br>
-- Flask <br>
-- InfluxDB <br>
-- Grafana <br>
+ - Python 3 <br>
+ - Flask <br>
+ - InfluxDB <br>
+ - Grafana <br>
  
 <h2>Installation:</h2>
 
-Clone the repository: git clone https://github.com/"your-username"/api-influxdb-grafana.git <br>
-Install the required libraries: pip install flask influxdb_client <br>
-In the bddInfluxDB function, replace host, port, username, password, and database with your InfluxDB credentials. <br>
-In the SendBdd function, replace bucket, org, and token with your InfluxDB details. Replace url with the URL of your InfluxDB instance. <br>
+Install the required libraries: <br> 
+- pip install flask
+- pip install influxdb_client <br>
+
+In the bddInfluxDB function, replace with your InfluxDB credentials.:
+- host
+- port
+- username
+- password
+- database <br>
+
+In the SendBdd function replace with your InfluxDB details:
+- bucket
+- org
+- token<br>
+
+Replace url with the URL of your InfluxDB instance. <br>
   
 <h2>Usage:</h2>
   
