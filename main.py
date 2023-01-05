@@ -4,10 +4,6 @@ from flask import Flask, jsonify, request, json
 import influxdb_client
 from influxdb_client.client.write_api import SYNCHRONOUS
 
-def bddInfluxDB():
-    client = InfluxDBClient(host='localhost', port=8086, username='keyce', password='keycekeyce',
-                            database='keyce')
-
 def SendBdd(name, value):
     bucket = "keyce"
     org = "keyce"
