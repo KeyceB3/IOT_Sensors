@@ -15,13 +15,6 @@ Install the required libraries: <br>
 - pip install flask
 - pip install influxdb_client <br>
 
-In the bddInfluxDB function, replace with your InfluxDB credentials.:
-- host
-- port
-- username
-- password
-- database <br>
-
 In the SendBdd function replace with your InfluxDB details:
 - bucket
 - org
